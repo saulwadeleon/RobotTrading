@@ -28,5 +28,9 @@
 6. **Automatización**:
    - Utilización de la librería time de Python para programar la ejecución del algoritmo de decisión cada 5 minutos.
    - Actualización del gráfico con los nuevos datos y la nueva decisión en cada iteración.
-  
+
+**Versión 01**:
+![Captura de pantalla 2024-04-02 124853](https://github.com/saulwadeleon/RobotTrading/assets/128748724/5c2c2bae-434f-4f13-b0c3-6002bd50245c)
+
+**Versión 02**:
    - ![Captura de pantalla 2024-04-02 110428](https://github.com/saulwadeleon/RobotTrading/assets/128748724/e09686f1-6543-482c-8970-4dae762fe18c)
