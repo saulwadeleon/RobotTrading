@@ -103,12 +103,15 @@ def visualizacion():
    df_bitcoin['Promedio'] = media_bitcoin
 
    # Configurar el gráfico
-   plt.figure(figsize=(16, 5))
-   plt.title("Evolución del precio de Bitcoin y decisión de compra/venta")
+   plt.figure(figsize=(12, 6))
+   plt.title("Evolución del precio de Bitcoin y decisión de Compra/Venta")
+   plt.xlabel("Fecha")
+   plt.ylabel("Precio (USD)")
 
    # Dibujar las líneas
    df_bitcoin['Close'].plot()
-   df_bitcoin['Promedio'].plot()
+   plt.axhline(y=media_bitcoin, color="r", linestyle="--", label="Precio promedio")
+   # df_bitcoin['Promedio'].plot()
 
    # Agregar anotación con la decisión
    ultima_fecha = df_bitcoin.index[-1]
